@@ -1,0 +1,12 @@
+#include <stdio.h>
+int factorial_recursion(int num){
+    if(num==1)
+        return num;
+    return num*factorial_recursion(num-1);
+}
+int main(){
+    printf("Enter a number whose factorial you want: ");
+    int n;
+    scanf("%d",&n);
+    printf("The factorial of %d is %d",n,factorial_recursion(n));
+}
