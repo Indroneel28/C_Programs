@@ -1,3 +1,5 @@
+// C Program to Calculate the Factorial of a Number Using Recursion 
+
 #include <stdio.h>
 int factorial_recursion(int num){
     if(num==1)

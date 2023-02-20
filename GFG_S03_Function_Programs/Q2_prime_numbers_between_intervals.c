@@ -1,3 +1,5 @@
+// C Program to Display Prime Numbers Between Two Intervals Using Functions 
+
 #include <stdio.h>
 void prime_print(int num1, int num2){
     printf("The prime numbers between %d and %d are-\n",num1,num2);

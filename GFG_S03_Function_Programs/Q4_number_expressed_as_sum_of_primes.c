@@ -1,3 +1,5 @@
+// C Program to Find All Roots of a Quadratic Equation
+
 #include <stdio.h>
 int check_prime(int num){
     int count=0;

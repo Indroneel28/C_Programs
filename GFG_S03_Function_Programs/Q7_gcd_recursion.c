@@ -1,7 +1,9 @@
+// C Program to Find G.C.D Using Recursion
+
 #include <stdio.h>
 //Most efficient program even not in GFG //THANKS ITER
 int gcd_recursion(int num1, int num2){
-    //using euclidean algortithm
+    //using euclidean algortithm(taught in discrete mathematics)
     int a= num1>num2?num1:num2; //greater number
     int b= num1<num2?num1:num2; //smaller number
     if(a%b==0)
