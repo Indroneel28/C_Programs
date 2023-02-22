@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 int factorial_recursion(int num){
-    if(num==1)
-        return num;
+    if(num==0)
+        return 1;
     return num*factorial_recursion(num-1);
 }
 int main(){

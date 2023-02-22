@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 int power_recursion(int num, int power){
-    if(power==1)
-        return num;
+    if(power==0)
+        return 1;
     return num*power_recursion(num,power-1);
 }
 int main(){
